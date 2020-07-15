@@ -12,9 +12,9 @@ set(sources
    AddressExtractorTest.cpp AddressExtractor.cpp
    PlaceDescriptionServiceTest.cpp PlaceDescriptionService.cpp)
 add_executable(test ${sources})
-target_link_libraries(test pthread)
-target_link_libraries(test gmock)
 target_link_libraries(test gtest)
+target_link_libraries(test gmock)
+target_link_libraries(test pthread)
 target_link_libraries(test json_linux-gcc)
 target_link_libraries(test curl)
 
