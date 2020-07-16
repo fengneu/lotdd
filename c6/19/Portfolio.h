@@ -11,6 +11,7 @@
 
 #include <string>
 #include <exception>
+#include <numeric>
 #include <unordered_map>
 #include <vector>
 #include "boost/date_time/gregorian/gregorian_types.hpp"

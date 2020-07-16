@@ -8,8 +8,8 @@ set(sources
    main.cpp 
    LineReaderTest.cpp LineReader.h)
 add_executable(test ${sources})
-target_link_libraries(test pthread)
-target_link_libraries(test gmock)
 target_link_libraries(test gtest)
+target_link_libraries(test gmock)
+target_link_libraries(test pthread)
 target_link_libraries(test rt)
 

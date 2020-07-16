@@ -51,7 +51,7 @@ bool Portfolio::ContainsSymbol(const string& symbol) const {
 
 unsigned int Portfolio::ShareCount(const string& symbol) const {
    auto records = Find<vector<PurchaseRecord>>(purchaseRecords_, symbol);
-   return accumulate(records.begin(), records.end(), 0, 
+   return accumulate(records.begin(), records.end(), 0,
       [] (int total, PurchaseRecord record) { 
             return total + record.ShareCount; });
 }

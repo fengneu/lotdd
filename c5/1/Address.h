@@ -16,6 +16,7 @@ struct Address {
    std::string city;
    std::string state;
    std::string country;
+   std::string  size;
 };
 
 #endif

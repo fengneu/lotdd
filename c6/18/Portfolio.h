@@ -13,6 +13,7 @@
 #include <exception>
 #include <unordered_map>
 #include <vector>
+#include <numeric>
 #include "boost/date_time/gregorian/gregorian_types.hpp"
 #include "PurchaseRecord.h"
 
